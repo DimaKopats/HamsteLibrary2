@@ -1,0 +1,16 @@
+PODS:
+  - HamsterLibrary2 (0.1.0)
+
+DEPENDENCIES:
+  - HamsterLibrary2 (from `../`)
+
+EXTERNAL SOURCES:
+  HamsterLibrary2:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HamsterLibrary2: 7fff46f381442b33ab0315c14ed8d2d0ba49d5f2
+
+PODFILE CHECKSUM: c81dc73b6977f02210476dc477562a274ed9068f
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,6 @@
+framework module HamsterLibrary2 {
+  umbrella header "HamsterLibrary2-umbrella.h"
+
+  export *
+  module * { export * }
+}

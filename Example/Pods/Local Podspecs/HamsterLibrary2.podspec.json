@@ -1,0 +1,24 @@
+{
+  "name": "HamsterLibrary2",
+  "version": "0.1.0",
+  "summary": "Pod for printing second",
+  "description": "The only function of this pod is to print \"second\" to the console",
+  "homepage": "https://github.com/DimaKopats/HamsterLibrary2",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Dzmitry Kopats": "dzmitry_kopats@epam.com"
+  },
+  "source": {
+    "git": "https://github.com/DimaKopats/HamsterLibrary2.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "swift_versions": "4.0",
+  "source_files": "HamsterLibrary2/Classes/**/*",
+  "swift_version": "4.0"
+}

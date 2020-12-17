@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HamsterLibrary2'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of HamsterLibrary2.'
+  s.version          = '1.0.2'
+  s.summary          = 'Pod for printing second'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,18 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+The only function of this pod is to print "second" to the console
                        DESC
 
-  s.homepage         = 'https://github.com/Dzmitry Kopats/HamsterLibrary2'
+  s.homepage         = 'https://github.com/DimaKopats/HamsterLibrary2'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Dzmitry Kopats' => 'dzmitry.kopats@ext.privalia.com' }
-  s.source           = { :git => 'https://github.com/Dzmitry Kopats/HamsterLibrary2.git', :tag => s.version.to_s }
+  s.author           = { 'Dzmitry Kopats' => 'dzmitry_kopats@epam.com' }
+  s.source           = { :git => 'https://github.com/DimaKopats/HamsterLibrary2.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
+  s.swift_version = '4.0'
 
   s.source_files = 'HamsterLibrary2/Classes/**/*'
   
